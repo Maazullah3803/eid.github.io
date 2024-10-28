@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <!-- Gradient Definitions -->
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#a5b4fc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e0e7ff;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="buildingGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4f46e5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="groundGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#15803d;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#166534;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="sunGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#fcd34d; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fbbf24; stop-opacity:0.5" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="400" fill="url(#skyGradient)"/>
+
+  <!-- Decorative Sun -->
+  <circle cx="500" cy="80" r="40" fill="url(#sunGradient)" />
+  <circle cx="500" cy="80" r="50" fill="url(#sunGradient)" opacity="0.3"/>
+
+  <!-- Ground/Landscape -->
+  <path d="M0 280 Q150 260 300 280 Q450 300 600 280 L600 400 L0 400 Z" fill="url(#groundGradient)"/>
+
+  <!-- Modern Luxury Farmhouse -->
+  <g transform="translate(100,150)">
+    <!-- Main House Structure -->
+    <path d="M50 0 L200 0 L250 50 L0 50 Z" fill="#334155" /> <!-- Roof -->
+    <rect x="20" y="50" width="210" height="150" fill="url(#buildingGradient)" /> <!-- Main Building -->
+    
+    <!-- Windows and Details -->
+    <rect x="40" y="70" width="40" height="60" fill="#f8fafc" opacity="0.9"/>
+    <rect x="100" y="70" width="40" height="60" fill="#f8fafc" opacity="0.9"/>
+    <rect x="160" y="70" width="40" height="60" fill="#f8fafc" opacity="0.9"/>
+    
+    <!-- Door -->
+    <rect x="105" y="150" width="30" height="50" fill="#1e293b"/>
+    <circle cx="125" cy="175" r="2" fill="#fcd34d"/> <!-- Door Handle -->
+    
+    <!-- Balcony -->
+    <rect x="40" y="140" width="160" height="10" fill="#334155"/>
+    
+    <!-- Modern Elements -->
+    <rect x="0" y="80" width="10" height="120" fill="#334155"/> <!-- Left Pillar -->
+    <rect x="240" y="80" width="10" height="120" fill="#334155"/> <!-- Right Pillar -->
+  </g>
+
+  <!-- Landscaping Elements -->
+  <!-- Trees -->
+  <g transform="translate(50,200)">
+    <path d="M0 80 L20 0 L40 80 Z" fill="#15803d"/>
+    <rect x="15" y="80" width="10" height="20" fill="#854d0e"/>
+  </g>
+  <g transform="translate(500,200)">
+    <path d="M0 80 L20 0 L40 80 Z" fill="#15803d"/>
+    <rect x="15" y="80" width="10" height="20" fill="#854d0e"/>
+  </g>
+
+  <!-- Additional Trees -->
+  <g transform="translate(200,230)">
+    <path d="M0 80 L20 0 L40 80 Z" fill="#15803d"/>
+    <rect x="15" y="80" width="10" height="20" fill="#854d0e"/>
+  </g>
+
+  <!-- Flower Bed -->
+  <g transform="translate(120,280)">
+    <circle cx="5" cy="0" r="5" fill="#eab308"/>
+    <circle cx="20" cy="0" r="5" fill="#f472b6"/>
+    <circle cx="35" cy="0" r="5" fill="#3b82f6"/>
+  </g>
+
+  <!-- Company Branding -->
+  <g transform="translate(300,350)">
+    <text text-anchor="middle" font-family="Arial" font-size="24" font-weight="bold" fill="#f8fafc">
+      Earth Infra Developers
+    </text>
+    <text text-anchor="middle" font-family="Arial" font-size="14" y="25" fill="#e0e7ff">
+      Building Your Dream Estates
+    </text>
+  </g>
+
+  <!-- Decorative Elements -->
+  <g opacity="0.1">
+    <path d="M20 20 L50 50 M550 50 L580 80" stroke="#f8fafc" stroke-width="2"/>
+    <circle cx="40" cy="40" r="20" fill="#f8fafc"/>
+    <circle cx="560" cy="360" r="20" fill="#f8fafc"/>
+  </g>
+
+  <!-- Clouds -->
+  <g fill="#f8fafc" opacity="0.7">
+    <path d="M50 100 Q70 80 90 100 Q110 120 130 100 Q150 80 170 100 Q160 120 140 110 Q120 100 100 110 Q80 120 50 100"/>
+    <path d="M450 150 Q470 130 490 150 Q510 170 530 150 Q550 130 570 150 Q560 170 540 160 Q520 150 500 160 Q480 170 450 150"/>
+  </g>
+</svg>
