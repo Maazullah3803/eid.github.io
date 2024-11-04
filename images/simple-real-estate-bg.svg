@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+    <!-- Background gradient -->
+    <defs>
+        <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style="stop-color:#E8F4F8;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+
+    <!-- Main background -->
+    <rect width="1200" height="800" fill="url(#bgGradient)"/>
+    
+    <!-- Abstract shapes -->
+    <path d="M0 600 L1200 400 L1200 800 L0 800 Z" fill="#E0EEF7" opacity="0.7"/>
+    <path d="M0 650 L1200 500 L1200 800 L0 800 Z" fill="#D3E5F0" opacity="0.5"/>
+    
+    <!-- Subtle accent lines -->
+    <path d="M100 750 L300 720 L500 740 L700 710 L900 730 L1100 700" 
+          stroke="#C0D8E8" 
+          stroke-width="2" 
+          fill="none"/>
+    
+    <path d="M0 780 L200 760 L400 770 L600 750 L800 765 L1000 745 L1200 760" 
+          stroke="#B0CCE0" 
+          stroke-width="2" 
+          fill="none"/>
+</svg>
